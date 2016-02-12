@@ -8,7 +8,6 @@ namespace Exceptionless.Core.Models.Stats {
         }
 
         public ICollection<NumbersTimelineItem> Timeline { get; private set; }
-        public double AvgPerHour { get; set; }
         public DateTime FirstOccurrence { get; set; }
         public DateTime LastOccurrence { get; set; }
     }
